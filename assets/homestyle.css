@@ -1,0 +1,81 @@
+@CHARSET "UTF-8";
+
+@font-face {
+	font-family: 'gamefont';
+	src: url('gamefont-webfont.eot');
+	src: url('gamefont-webfont.eot?#iefix') format('embedded-opentype'),
+		url('gamefont-webfont.woff') format('woff'),
+		url('gamefont-webfont.ttf') format('truetype'),
+		url('gamefont-webfont.svg#pacificoregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: gamefont;
+	background-image: url('Background.jpg');
+	overflow : hidden;
+}
+
+#title {
+	color: #FF9900;
+	text-align: center;
+	font-size: 3em;
+}
+
+#titlecontent {
+	background-color: #2F3676;
+	padding: 0.5%;
+	border-radius: 10px;
+}
+
+#window {
+	display: inline-block;
+	background-color: #2F3676;
+	height: 62.5%;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	border-radius: 10px;
+}
+
+#sidewindow {
+	display: inline-block;
+	vertical-align: top;
+	padding: 1%;
+	width: 16%;
+}
+
+#score {
+	color: #FF9900;
+	font-size: 2em;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: middle;
+}
+
+#gamewindow {
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+	width: 70%;
+	text-align: center;
+	font-size: 4em;
+}
+
+#gamewindowcontent {
+	display: table;
+	text-align: center;
+	height: 100%;
+	width: 100%;
+}
+
+#message {
+	color: #FF9900;
+	display: table-cell;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: middle;
+}
+
+
